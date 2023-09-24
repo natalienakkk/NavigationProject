@@ -22,3 +22,14 @@ Features:
 7.Parameter Adjustment: Allows adjustment of DBSCAN parameters based on the input file name.
 
 Dependencies: NumPy,Open3D,scikit-learn,Matplotlib
+
+How to run the project:
+5 files included in this project and 5 databases of rooms :
+1. preprocessing :  preprocessing of the data , noise removal and down sampling
+2. FindExit : this part finds the exit by using clustering.
+3. projection : projection to work with 2D instead of 3D
+4. visualization: this part is responsibale for the results plotting.
+5. main: this is the main file that uses all the other files and runs the code.
+
+To run the project :
+choose the room you want to find its exit from the files: room1,room2,room3,room4,map ,choice is made by typing number of the room your intrested in .
