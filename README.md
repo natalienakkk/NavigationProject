@@ -24,7 +24,9 @@ Features:
 Dependencies: NumPy,Open3D,scikit-learn,Matplotlib
 
 How to run the project:
-5 files included in this project and 5 databases of rooms :
+
+5 databases of rooms and 5 files included in this project:
+
 1. preprocessing :  preprocessing of the data , noise removal and down sampling
 2. FindExit : this part finds the exit by using clustering.
 3. projection : projection to work with 2D instead of 3D
